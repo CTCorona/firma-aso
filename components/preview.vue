@@ -19,8 +19,8 @@
 								<tr>
 									<td style="background-color: #2f3031; vertical-align: top">
 										<img
-											width="330"
-											style="width: 330px"
+											width="360"
+											style="width: 360px"
 											src="https://asocorporate.com/imgs/ASO_1.png"
 											alt=""
 										/>
@@ -43,17 +43,65 @@
 											</tr>
 											<tr>
 												<td>
-													<div
+													<table style="background-color: #610a1a" cellpadding="0" cellspacing="0">
+														<tr>
+															<td>
+																<img
+																	width="15"
+																	style="vertical-align: center; margin-right: 0px; width: 15px"
+																	src="https://asocorporate.com/imgs/ASO_PHONE.png"
+																	alt=""
+																/>
+															</td>
+															<td
+																style="padding-left: 10px; font-size: 10px; font-family: Avenir, Tahoma, sans-serif; font-weight: normal; color: white; letter-spacing: 1px; line-height: 10px"
+															>
+																<a
+																	style="font-size: 10px; font-family: Avenir, Tahoma, sans-serif; font-weight: normal; line-height: 10px; color: white; text-decoration: none; letter-spacing: 1px;"
+																	href="tel:937185021"
+																>
+																	+34 93 718 50 21
+																</a>
+																|
+																<a
+																	style="font-size: 10px; font-family: Avenir, Tahoma, sans-serif; font-weight: normal; line-height: 10px; color: white; text-decoration: none; letter-spacing: 1px;"
+																	:href="`tel:${phone}`"
+																>
+																	{{ phone }}
+																</a>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<img
+																	width="15"
+																	style="vertical-align: sub; margin-right: 0px; width: 15px"
+																	src="https://asocorporate.com/imgs/ASO_IN.png"
+																	alt=""
+																/>
+															</td>
+															<td style="padding-left: 10px">
+																<a
+																	style="font-size: 10px; font-family: Avenir, Tahoma, sans-serif; font-weight: normal; line-height: 10px; color: white; text-decoration: none; letter-spacing: 1px;"
+																	:href="linkedin"
+																>
+																	linkedin/{{ setLink }}
+																</a>
+															</td>
+														</tr>
+													</table>
+
+													<!-- <div
 														style="font-size: 10px; font-family: Avenir, Tahoma, sans-serif; font-weight: normal; color: white; letter-spacing: 1px; line-height: 10px"
-													>
-														<img
+													> -->
+													<!-- <img
 															width="15"
-															style="vertical-align: center; margin-right: 10px; width: 15px"
+															style="vertical-align: center; margin-right: 0px; width: 15px"
 															src="https://asocorporate.com/imgs/ASO_PHONE.png"
 															alt=""
-														/>
-														<a
-															style="font-family: Avenir, Tahoma, sans-serif; font-weight: normal; color: white; text-decoration: none; "
+														/> -->
+													<!-- <a
+															style="padding-left:10px; font-family: Avenir, Tahoma, sans-serif; font-weight: normal; color: white; text-decoration: none; "
 															href="tel:937185021"
 														>
 															+34 93 718 50 21
@@ -64,82 +112,89 @@
 															:href="`tel:${phone}`"
 														>
 															{{ phone }}
-														</a>
-													</div>
-													<div
+														</a> -->
+													<!-- </div> -->
+													<!-- <div
 														style="font-size: 10px; font-family: Avenir, Tahoma, sans-serif; font-weight: normal; line-height: 10px"
-													>
-														<img
+													> -->
+													<!-- <img
 															width="15"
-															style="vertical-align: sub; margin-right: 10px; width: 15px"
+															style="vertical-align: sub; margin-right: 0px; width: 15px"
 															src="https://asocorporate.com/imgs/ASO_IN.png"
 															alt=""
 														/>
 														<a
-															style="font-family: Avenir, Tahoma, sans-serif; font-weight: normal; color: white; text-decoration: none; "
+															style="padding-left:10px; font-family: Avenir, Tahoma, sans-serif; font-weight: normal; color: white; text-decoration: none; "
 															:href="linkedin"
 														>
 															linkedin/{{ setLink }}
-														</a>
-													</div>
+														</a> -->
+													<!-- </div> -->
 												</td>
 											</tr>
 											<tr>
 												<td style="padding-top: 10px;">
 													<table style="width: 210px" cellpadding="0" cellspacing="0">
 														<tr>
-															<td>
+															<td style="width: 25px">
 																<img
-																	width="25px"
-																	style="width: 25px"
+																	width="25"
+																	heigth="25"
+																	style="width: 25px; height: 25px"
 																	src="https://asocorporate.com/imgs/aso_firma_02_new.png"
 																	alt=""
 																/>
 															</td>
-															<td>
+															<td style="width: 25px">
 																<img
-																	width="25px"
-																	style="width: 25px"
+																	width="25"
+																	heigth="25"
+																	style="width: 25px; height: 25px"
 																	src="https://asocorporate.com/imgs/aso_firma_04_new.png"
 																	alt=""
 																/>
 															</td>
-															<td>
+															<td style="width: 25px">
 																<img
-																	width="25px"
-																	style="width: 25px"
+																	width="25"
+																	heigth="25"
+																	style="width: 25px; height: 25px"
 																	src="https://asocorporate.com/imgs/aso_firma_01_new.png"
 																	alt=""
 																/>
 															</td>
-															<td>
+															<td style="width: 25px">
 																<img
-																	width="25px"
-																	style="width: 25px"
+																	width="25"
+																	heigth="25"
+																	style="width: 25px; height: 25px"
 																	src="https://asocorporate.com/imgs/aso_firma_05_new.png"
 																	alt=""
 																/>
 															</td>
-															<td>
+															<td style="width: 25px">
 																<img
-																	width="25px"
-																	style="width: 25px"
+																	width="25"
+																	heigth="25"
+																	style="width: 25px; height: 25px"
 																	src="https://asocorporate.com/imgs/aso_firma_07_new.png"
 																	alt=""
 																/>
 															</td>
-															<td>
+															<td style="width: 25px">
 																<img
-																	width="25px"
-																	style="width: 25px"
+																	width="25"
+																	heigth="25"
+																	style="width: 25px; height: 25px"
 																	src="https://asocorporate.com/imgs/aso_firma_03_new.png"
 																	alt=""
 																/>
 															</td>
-															<td>
+															<td style="width: 25px">
 																<img
-																	width="25px"
-																	style="width: 25px"
+																	width="25"
+																	heigth="25"
+																	style="width: 25px; height: 25px"
 																	src="https://asocorporate.com/imgs/aso_firma_06_new.png"
 																	alt=""
 																/>
@@ -152,7 +207,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td style="background-color: #2f3031; padding: 0 10px 5px">
+									<td style="background-color: #2f3031; padding: 1px 10px 5px">
 										<p
 											style="color: #ffffff; font-family: Avenir, Tahoma, sans-serif; font-weight: normal; font-size: 7px; line-height: 10px"
 										>
